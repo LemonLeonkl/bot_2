@@ -6,7 +6,7 @@ import os, random
     
 # Замени 'TOKEN' на токен твоего бота
 # Этот токен ты получаешь от BotFather, чтобы бот мог работать
-bot = telebot.TeleBot("8060051360:AAHkrPOAy6zfIL6b0QZKHumvXf4x2Q6jMlg")
+bot = telebot.TeleBot("-")
 
 
 @bot.message_handler(commands=['bye'])
